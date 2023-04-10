@@ -14,8 +14,8 @@ class Mail{
     String emailAlan = "";    //Maili alan kişinin bilgileri
 
     //Gönderen kişinin bilgileri
-    String email = "hlllbyrk03@gmail.com";
-    String sifre = "kmlhtskbihyzisbo"; //iki adımda doğrulama ile alınan uygulama şifresi
+    String email = "";
+    String sifre = ""; //iki adımda doğrulama ile alınan uygulama şifresi
 
     // Kullanici kimlik bilgileri
     Authenticator dogrulama = new Authenticator() {
